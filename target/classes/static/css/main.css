@@ -1,0 +1,58 @@
+p {color: red;}
+
+.modal-div{
+    width: 450px;
+    height: fit-content;
+    position: fixed;
+    display: none;
+    background: rgb(56, 198, 255);
+    /*margin-top: auto;*/
+    /*margin-bottom: auto;*/
+    top: 40%;
+    left: 45%;
+    margin-top: -150px;
+    margin-left: -150px;
+    padding: 20px 10px;
+}
+
+#open-modal{
+    margin-left: 2em;
+    width: 20%;
+    /*display: inline-block;*/
+
+}
+#editableTable table{
+    width: 50%;
+    margin: 2em;
+    /*position: fixed;*/
+    /*display: inline-block;*/
+}
+
+/*#modal1 #form-btn-save{*/
+    /*!*display: inline-block;*!*/
+    /*width: 50%;*/
+ /*}*/
+
+/*#form-btn-cls{*/
+    /*!*display: inline-block;*!*/
+    /*background: red;*/
+/*}*/
+
+#modal1 .form-group {
+    /*background: green;*/
+    min-width: 100%;
+}
+
+#modal1 #form-btn-save {
+    margin-left: 1em;
+    width: auto;
+    float: left;
+}
+
+#modal1 #form-btn-cls {
+    margin-right: 1em;
+    width: auto;
+    float: right;
+}
+
+

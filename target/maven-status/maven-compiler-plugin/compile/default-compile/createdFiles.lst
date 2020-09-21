@@ -1,0 +1,4 @@
+com\testovoe\egar\domain\Security.class
+com\testovoe\egar\controllers\MainController.class
+com\testovoe\egar\TestApplication.class
+com\testovoe\egar\repos\SecurityRepository.class
