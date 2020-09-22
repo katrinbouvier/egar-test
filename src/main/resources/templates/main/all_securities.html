@@ -3,13 +3,12 @@
 <head>
     <link rel="stylesheet" href="./css/main.css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="./js/chartist-js-develop/dist/chartist.min.css">
     <meta charset="UTF-8">
     <title>Securities</title>
 
 </head>
 <body>
-
 
 <div id="editableTable">
     <table class="table table-bordered table-hover editable">
@@ -25,32 +24,45 @@
                 <td colspan="3">No securities available.</td>
             </tr>
             <tr th:each="security : ${securities}">
-                <td class="edit-td" id="date-td"><span th:text="${security.date}">Date</span></td>
-                <td class="edit-td" id="comp-td"><span th:text="${security.company}">Company</span></td>
-                <td class="edit-td" id="cost-td"><span th:text="${security.cost}">Cost</span></td>
+                <td class="edit-td" id="date"><span th:text="${security.date}">Date</span></td>
+                <td class="edit-td" id="company"><span th:text="${security.company}">Company</span></td>
+                <td class="edit-td" id="cost"><span th:text="${security.cost}">Cost</span></td>
             </tr>
         </tbody>
     </table>
 </div>
 
-    <!--<button id="open-modal" class="btn btn-primary">Добавить</button>-->
 <button id="open-modal" class="btn btn-primary">Добавить запись</button>
+
+<div class="sel">
+    <select id="select-company">
+        <option th:if="${companies.empty}" class="option-company">
+            No companies available.
+        </option>
+        <option disabled selected value>Select company</option>
+        <option th:each="company : ${companies}" class="option-company">
+           <span th:text="${company}"></span>
+        </option>
+    </select>
+</div>
+
+<div class="ct-chart"></div>
 
 <div id="modal1" class="modal-div">
     <form name="form" method="post">
         <div class="form-group col-md-6">
-            <label for="date">Дата</label>
-            <input required type="date" class="form-control" name="date" id="date"/>
+            <label for="date-input">Дата</label>
+            <input required type="date" class="form-control" name="date" id="date-input"/>
         </div>
 
         <div class="form-group col-md-6">
-            <label for="company">Инструмент</label>
-            <input required type="text" class="form-control" name="company" id="company"/>
+            <label for="company-input">Инструмент</label>
+            <input required type="text" class="form-control" name="company" id="company-input"/>
         </div>
 
         <div class="form-group col-md-6">
-            <label for="cost">Стоимость</label>
-            <input required type="text" class="form-control" name="cost" id="cost"/>
+            <label for="cost-input">Стоимость</label>
+            <input required type="text" class="form-control" name="cost" id="cost-input"/>
         </div>
 
         <div id="form-btn-save">
@@ -63,17 +75,15 @@
 
     </form>
 
-
 </div>
 
-
-<!--TODO: МОДАЛЬНОЕ ОКНО-->
-<!--TODO: ГРАФИК АКЦИЙ-->
-<!--TODO: INLINE РЕДАКТИРОВАНИЕ ПОЛЕЙ-->
 <!--TODO: ПРОВЕРКА ПУСТОГО ВВОДА-->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="./js/modal.js"></script>
 <script src="./js/edit-content.js"></script>
+<script src="./js/mychart.js"></script>
+<script src="./js/chartist-js-develop/dist/chartist.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
 </body>
 </html>

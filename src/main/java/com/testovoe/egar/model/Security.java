@@ -1,6 +1,7 @@
-package com.testovoe.egar.domain;
+package com.testovoe.egar.model;
 
 import javax.persistence.*;
+import java.util.Objects;
 
 
 @Entity
@@ -55,5 +56,18 @@ public class Security {
 
     public void setCost(int cost) {
         this.cost = cost;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, date, company, cost);
+    }
+
+    @Override
+    public String toString() {
+        return "id: " + id + "; " +
+                "date: " + date + "; " +
+                "company: " + company + "; " +
+                "cost: " + cost;
     }
 }

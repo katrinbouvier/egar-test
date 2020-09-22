@@ -1,4 +1,3 @@
-
 $(document).ready(function () {
     var newContent = '';
     var index = '';
@@ -7,24 +6,22 @@ $(document).ready(function () {
     $('td.edit-td').each(function () {
         $(this).on('click', function () {
             $(this).attr('contenteditable', 'true');
-            // console.log($(this).text());
+
             index = $(this).parent().index();
             colID = $(this).attr('id');
-            // console.log(colID);
         });
 
         $(this).on('blur', function () {
             $(this).removeAttr('contenteditable');
-            // console.log($(this).text());
             newContent = $(this).text();
 
-            var arr = {Content: newContent, Index: index, ID: colID};
+            var arr = {content: newContent, index: index, id: colID};
             console.log(newContent);
             console.log(index);
             console.log(colID);
 
             $.ajax({
-                url: '/all/add-new',
+                url: '/add-new',
                 type: 'POST',
                 data: JSON.stringify(arr),
                 contentType: 'application/json; charset=utf-8',

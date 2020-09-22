@@ -1,4 +1,8 @@
-com\testovoe\egar\domain\Security.class
+com\testovoe\egar\TableHeaders.class
+com\testovoe\egar\model\Security.class
+com\testovoe\egar\repos\SecurityRepository.class
+com\testovoe\egar\service\SecurityService.class
 com\testovoe\egar\controllers\MainController.class
 com\testovoe\egar\TestApplication.class
-com\testovoe\egar\repos\SecurityRepository.class
+com\testovoe\egar\model\EditedSecurity.class
+com\testovoe\egar\controllers\EditorController.class

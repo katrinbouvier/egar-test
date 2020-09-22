@@ -1,29 +1,35 @@
 package com.testovoe.egar.controllers;
 
-import com.testovoe.egar.domain.EditedSecurity;
+import com.testovoe.egar.model.EditedSecurity;
 import com.testovoe.egar.repos.SecurityRepository;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.testovoe.egar.service.SecurityService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
+
+// TODO: заменить url
+// TODO: нормальные наименования в json
+// TODO: заменить геттеры/сеттеры в editedsecurity
 
 @Controller
 public class EditorController {
 
-    @Autowired
-    private SecurityRepository securitiesRepo;
+//    @Autowired
+    private SecurityService securityService;
 
-    public EditorController(SecurityRepository securitiesRepo) {
-        this.securitiesRepo = securitiesRepo;
+    public EditorController(SecurityService securityService) {
+        this.securityService = securityService;
     }
 
-    @RequestMapping(value="/all/add-new",
-    method= RequestMethod.POST,
-    produces="application/json", consumes="application/json",
-    headers={"Content-type=application/json"})
+    @RequestMapping(value="/add-new", method=RequestMethod.POST)
     @ResponseBody
     public String addSecurity(@RequestBody EditedSecurity edited){
-        System.out.println("called addSecurity");
-        System.out.println(edited.toString());
+
+        String contentToUpdate = edited.getcontent();
+        String columnId = edited.getid();
+        int rowIndex = edited.getIndex();
+
+        securityService.updateEntry(rowIndex, columnId, contentToUpdate);
+
         return edited.toString();
     }
 }

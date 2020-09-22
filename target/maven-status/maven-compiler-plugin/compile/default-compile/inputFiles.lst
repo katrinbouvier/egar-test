@@ -1,4 +1,8 @@
-D:\egar\src\main\java\com\testovoe\egar\domain\Security.java
+D:\egar\src\main\java\com\testovoe\egar\controllers\EditorController.java
+D:\egar\src\main\java\com\testovoe\egar\TableHeaders.java
 D:\egar\src\main\java\com\testovoe\egar\controllers\MainController.java
 D:\egar\src\main\java\com\testovoe\egar\TestApplication.java
+D:\egar\src\main\java\com\testovoe\egar\model\EditedSecurity.java
 D:\egar\src\main\java\com\testovoe\egar\repos\SecurityRepository.java
+D:\egar\src\main\java\com\testovoe\egar\model\Security.java
+D:\egar\src\main\java\com\testovoe\egar\service\SecurityService.java
