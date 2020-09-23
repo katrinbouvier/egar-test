@@ -1,14 +1,12 @@
 package com.testovoe.egar.controllers;
 
 import com.testovoe.egar.model.EditedSecurity;
-import com.testovoe.egar.repos.SecurityRepository;
 import com.testovoe.egar.service.SecurityService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 // TODO: заменить url
 // TODO: нормальные наименования в json
-// TODO: заменить геттеры/сеттеры в editedsecurity
 
 @Controller
 public class EditorController {
@@ -24,8 +22,8 @@ public class EditorController {
     @ResponseBody
     public String addSecurity(@RequestBody EditedSecurity edited){
 
-        String contentToUpdate = edited.getcontent();
-        String columnId = edited.getid();
+        String contentToUpdate = edited.getContent();
+        String columnId = edited.getId();
         int rowIndex = edited.getIndex();
 
         securityService.updateEntry(rowIndex, columnId, contentToUpdate);

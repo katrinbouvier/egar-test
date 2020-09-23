@@ -14,11 +14,11 @@ public class EditedSecurity {
         this.id = id;
     }
 
-    public String getcontent() {
+    public String getContent() {
         return content;
     }
 
-    public void setcontent(String content) {
+    public void setContent(String content) {
         this.content = content;
     }
 
@@ -30,17 +30,17 @@ public class EditedSecurity {
         this.index = index;
     }
 
-    public String getid() {
+    public String getId() {
         return id;
     }
 
-    public void setid(String id) {
+    public void setId(String id) {
         this.id = id;
     }
 
     @Override
     public String toString() {
-        return this.getcontent() +"; "+ this.getIndex() +"; "+ this.getid();
+        return this.getContent() +"; "+ this.getIndex() +"; "+ this.getId();
     }
 
 }

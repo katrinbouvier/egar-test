@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa415b5d-731a-45d5-871e-8601200a6ad3" name="Default Changelist" comment="" />
+    <list default="true" id="aa415b5d-731a-45d5-871e-8601200a6ad3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testovoe/egar/controllers/EditorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testovoe/egar/controllers/EditorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testovoe/egar/controllers/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testovoe/egar/model/EditedSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testovoe/egar/model/EditedSecurity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testovoe/egar/repos/SecurityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testovoe/egar/repos/SecurityRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testovoe/egar/service/SecurityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testovoe/egar/service/SecurityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/mychart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/mychart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/testovoe/egar/controllers/ChartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testovoe/egar/controllers/ChartController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/testovoe/egar/controllers/EditorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testovoe/egar/controllers/EditorController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/testovoe/egar/controllers/TestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/testovoe/egar/model/EditedSecurity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testovoe/egar/model/EditedSecurity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/testovoe/egar/repos/SecurityRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testovoe/egar/repos/SecurityRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/testovoe/egar/service/SecurityService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testovoe/egar/service/SecurityService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/mychart.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/mychart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/test.html" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,94 +35,52 @@
       <FILTER>com.testovoe.egar.controllers.*</FILTER>
     </SUITE>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db_spring@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db_spring@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db_spring@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="db_spring: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db_spring@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="db_spring: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="hibernate_sequence: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db_spring@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="db_spring: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="securities: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/testovoe/egar/controllers/EditorController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#626#627#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/testovoe/egar/controllers/ChartController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/main/all_securities.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/testovoe/egar/service/SecurityService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="614">
-              <caret line="87" column="26" selection-start-line="87" selection-start-column="26" selection-end-line="87" selection-end-column="26" />
-              <folding>
-                <element signature="method#findAll#0;class#SecurityService#0" />
-                <element signature="method#updateEntry#0;class#SecurityService#0" />
-                <element signature="e#2461#2462#0" expanded="true" />
-                <element signature="e#2521#2522#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/mychart.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="882">
-              <caret line="42" column="3" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/testovoe/egar/repos/SecurityRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="593">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/testovoe/egar/controllers/TestController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/test.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -161,16 +139,18 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/test.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/testovoe/egar/model/ChartData.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/js/chart.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/css/main.css" />
         <option value="$PROJECT_DIR$/src/main/java/com/testovoe/egar/controllers/MainController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/main/all_securities.html" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/js/mychart.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/testovoe/egar/controllers/ChartController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/testovoe/egar/repos/SecurityRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/testovoe/egar/service/SecurityService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/testovoe/egar/controllers/TestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/testovoe/egar/model/EditedSecurity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/testovoe/egar/repos/SecurityRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/css/main.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/mychart.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/testovoe/egar/controllers/EditorController.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/31ac3f48-e9fc-4519-b9ea-d10ffc55c4d9/console.sql" />
       </list>
     </option>
   </component>
@@ -252,6 +232,65 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="egar" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="egar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="egar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="egar" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="egar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="egar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="egar" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="egar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="egar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="egar" type="462c0819:PsiDirectoryNode" />
+              <item name="repos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="egar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="egar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="egar" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="egar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="egar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="egar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="egar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="egar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="egar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -261,6 +300,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
@@ -273,8 +313,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="C:/AndroidStuff" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1600808046754" />
-    <property name="last_opened_file_path" value="C:/Program Files/nodejs/node.exe" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1600850005478" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -350,11 +392,13 @@
       <workItem from="1600493005369" duration="439000" />
       <workItem from="1600493453832" duration="63562000" />
       <workItem from="1600700811918" duration="62617000" />
+      <workItem from="1600847454958" duration="2576000" />
+      <workItem from="1600850396601" duration="9000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128192000" />
+    <option name="totallyTimeSpent" value="130777000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -367,9 +411,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18098818" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30236304" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -379,11 +422,11 @@
       <window_info id="Web" order="7" side_tool="true" weight="0.32918552" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32881355" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5864407" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.91525424" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946293" weight="0.26066896" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32871974" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32768363" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32881355" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3298731" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
@@ -392,16 +435,17 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3298731" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="right" id="Coverage" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" order="15" weight="0.63728815" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" weight="0.17615467" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32975295" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,22 +466,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/hello.html" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/testovoe/egar/TableHeaders.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/testovoe/egar/impl/SecurityRepoImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/testovoe/egar/TestApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -455,26 +483,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/c3.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2856" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/d3.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5124" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/c3.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/modal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/c3.min.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/d3.min.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/c3.css" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.8.RELEASE/spring-core-5.2.8.RELEASE.jar!/org/springframework/util/ReflectionUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
@@ -571,57 +582,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/testovoe/egar/model/ChartCompanyParameter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.2.6.RELEASE/spring-aop-5.2.6.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="84" selection-start-line="84" selection-end-line="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/testovoe/egar/model/Security.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/testovoe/egar/model/EditedSecurity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-261">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/testovoe/egar/model/SimpleData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
-          <folding>
-            <element signature="e#139#140#0" expanded="true" />
-            <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -695,10 +659,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/edit-content.js">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="-1113">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/test.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/testovoe/egar/controllers/TestController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/testovoe/egar/controllers/ChartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/testovoe/egar/controllers/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/testovoe/egar/model/ChartCompanyParameter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -709,96 +702,143 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/main.css">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/testovoe/egar/model/Security.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="71" column="14" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/testovoe/egar/controllers/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="-79">
+          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/testovoe/egar/model/SimpleData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1113">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/mychart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="42" column="3" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/testovoe/egar/controllers/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        <state relative-caret-position="483">
+          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/testovoe/egar/repos/SecurityRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/main/all_securities.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/testovoe/egar/service/SecurityService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
-          <caret line="87" column="26" selection-start-line="87" selection-start-column="26" selection-end-line="87" selection-end-column="26" />
-          <folding>
-            <element signature="method#findAll#0;class#SecurityService#0" />
-            <element signature="method#updateEntry#0;class#SecurityService#0" />
-            <element signature="e#2461#2462#0" expanded="true" />
-            <element signature="e#2521#2522#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/testovoe/egar/controllers/EditorController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="178">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/testovoe/egar/controllers/ChartController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/testovoe/egar/model/EditedSecurity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/testovoe/egar/service/SecurityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#findAll#0;class#SecurityService#0" />
+            <element signature="method#updateEntry#0;class#SecurityService#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-289">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/main/all_securities.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/chartist-js-develop/dist/chartist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="574" column="7" selection-start-line="574" selection-start-column="7" selection-end-line="574" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/edit-content.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/mychart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="42" column="3" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/modal.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/testovoe/egar/repos/SecurityRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/31ac3f48-e9fc-4519-b9ea-d10ffc55c4d9.SCHEMA:db_spring">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>31ac3f48-e9fc-4519-b9ea-d10ffc55c4d9.SCHEMA:db_spring</OriginalElement>
+          <nodes>
+            <node x="" y="">31ac3f48-e9fc-4519-b9ea-d10ffc55c4d9.TABLE:db_spring.securities</node>
+            <node x="" y="">31ac3f48-e9fc-4519-b9ea-d10ffc55c4d9.TABLE:db_spring.hibernate_sequence</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.2000000000000002" x="277.0" y="128.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/31ac3f48-e9fc-4519-b9ea-d10ffc55c4d9/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
         </state>
       </provider>
     </entry>

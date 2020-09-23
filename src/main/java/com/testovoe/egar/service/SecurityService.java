@@ -6,7 +6,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 
 @Service
 public class SecurityService {
@@ -65,24 +64,8 @@ public class SecurityService {
         return securitiesRepo.getListCompanies();
     }
 
-    public List<String> getUniqueDates() {
-        return securitiesRepo.getListUniqueDates();
-    }
-
     public List<String> getDates() {
         return securitiesRepo.getListDates();
-    }
-
-    public List<Security> findDatesByCompany(String companyParam) {
-        return securitiesRepo.findDatesByCompany(companyParam);
-    }
-
-    public List<Security> findCostssByCompany(String companyParam) {
-        return securitiesRepo.findCostsByCompany(companyParam);
-    }
-
-    public List<Integer> getCosts() {
-        return securitiesRepo.getListCosts();
     }
 
     public List<Security> findByCompany(String company) {
