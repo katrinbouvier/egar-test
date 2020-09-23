@@ -1,34 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa415b5d-731a-45d5-871e-8601200a6ad3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/testovoe/egar/model/EditedSecurity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testovoe/egar/controllers/EditorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testovoe/egar/controllers/EditorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testovoe/egar/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testovoe/egar/controllers/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testovoe/egar/domain/EditedSecurity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testovoe/egar/domain/Security.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testovoe/egar/model/Security.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testovoe/egar/repos/SecurityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testovoe/egar/repos/SecurityRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/edit-content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/edit-content.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/hello.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main/all_securities.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main/all_securities.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/testovoe/egar/TestApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testovoe/egar/TestApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/testovoe/egar/controllers/EditorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testovoe/egar/controllers/EditorController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/testovoe/egar/controllers/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testovoe/egar/controllers/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/testovoe/egar/domain/EditedSecurity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/testovoe/egar/domain/Security.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/testovoe/egar/repos/SecurityRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testovoe/egar/repos/SecurityRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/js/edit-content.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/edit-content.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/hello.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/main/all_securities.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/main/all_securities.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-app.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-app.jar" afterDir="false" />
-    </list>
+    <list default="true" id="aa415b5d-731a-45d5-871e-8601200a6ad3" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -234,7 +207,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="113" />
     <option name="y" value="-24" />
     <option name="width" value="1528" />
@@ -300,7 +273,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="C:/AndroidStuff" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1600807934745" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1600808046754" />
     <property name="last_opened_file_path" value="C:/Program Files/nodejs/node.exe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -376,12 +349,12 @@
       <workItem from="1600490092109" duration="1574000" />
       <workItem from="1600493005369" duration="439000" />
       <workItem from="1600493453832" duration="63562000" />
-      <workItem from="1600700811918" duration="62402000" />
+      <workItem from="1600700811918" duration="62617000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127977000" />
+    <option name="totallyTimeSpent" value="128192000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -393,7 +366,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18098818" />
